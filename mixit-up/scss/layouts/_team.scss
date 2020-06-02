@@ -1,0 +1,102 @@
+/*****************
+ Team Starts
+******************/
+
+
+#team {
+    @include widthPadding(100%, 100px 0 0 0);
+    background: #a0a0a0;
+
+    .teamTitle {
+        h6 {
+            font-size: 19px;
+            line-height: 30px;
+            font-weight: 400;
+            letter-spacing: 5px;
+            font-family: $secondaryFont;
+            color: $black;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 65px;
+            line-height: 75px;
+            font-weight: 400;
+            letter-spacing: 30px;
+            font-family: $primaryFont;
+            color: $black;
+            text-transform: uppercase;
+            padding-bottom: 50px;
+
+        }
+    }
+
+    .member {
+        background: $white;
+        -webkit-filter: grayscale(100%);
+        /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+
+        &:hover {
+            -webkit-filter: grayscale(0%);
+            /* Safari 6.0 - 9.0 */
+            filter: grayscale(0%);
+        }
+
+        img {
+            width: 100%;
+        }
+
+        h4 {
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 400;
+            font-family: $primaryFont;
+            color: $secondaryColor;
+            padding: 20px 0;
+            margin-bottom: 0rem !important;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 300;
+            font-family: $secondaryFont;
+            color: #818181;
+            margin-bottom: 0rem !important;
+            padding: 0 10px 20px 10px;
+        }
+
+        .butn {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #818181;
+            margin-right: 10px;
+            display: inline-block;
+            @include transition(.5s);
+            span{
+                display: none;
+            }
+            &:hover{
+                width: 100px;
+                height: 30px;
+                border-radius: 20px;
+            }
+            &:hover i{
+                color: $secondaryColor;
+                transform: rotate(360deg);
+            }
+            &:hover span{
+                display: inline-block;
+                color: $secondaryColor;
+            }
+        }
+    }
+}
+
+/*****************
+ Team Ends
+******************/

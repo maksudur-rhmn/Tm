@@ -1,0 +1,588 @@
+ /* 
+------------------
+Template Name: Divine - A Corporate Business HTML Template
+Author: Hub Of Coders
+Author Email: ahmedfarahnaz1@gmail.com
+Version: 1.00
+----------------
+
+----------------
+Table of Content
+----------------
+
+*/
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,600,700&display=swap");
+/***********************
+  Common CSS Starts
+***********************/
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none !important;
+  color: #222; }
+
+ul, ol {
+  list-style: none; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  overflow-x: hidden; }
+
+/***********************
+  Common CSS Ends
+***********************/
+/****************
+  Banner Starts
+*****************/
+#banner {
+  width: 100%;
+  padding: 250px 0 300px 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bannerImg.jpg) no-repeat center;
+  background-size: cover;
+  position: relative;
+  transition: transform 1s;
+  animation: banner 1s; }
+@keyframes banner {
+  0% {
+    transform: scale(1.5); }
+  100% {
+    transform: scale(1); } }
+  #banner .bannerTitle h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px; }
+    #banner .bannerTitle h2 span {
+      font-family: "Oswald", sans-serif;
+      font-size: 40px; }
+  #banner .bannerTitle h5 {
+    font-family: "Oswald", sans-serif;
+    font-size: 26px; }
+  #banner .bannerTitle p {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0; }
+  #banner .bannerTitle a {
+    background: #f2bb6c;
+    font-family: "Oswald", sans-serif;
+    text-align: left;
+    line-height: 31px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    border-color: #f2bb6c;
+    padding: 5px 31px;
+    color: #ffffff;
+    transition: 0.5s all linear;
+    -webkit-transition: 0.5s all linear;
+    -moz-transition: 0.5s all linear;
+    -o-transition: 0.5s all linear; }
+    #banner .bannerTitle a:hover {
+      background: #000000; }
+
+/****************
+  Banner Starts
+*****************/
+/**********************
+  Banner Bottom Starts
+***********************/
+#bannerBottom {
+  padding-top: 100px; }
+  #bannerBottom .bottomImg {
+    margin-top: -200px; }
+    #bannerBottom .bottomImg img {
+      width: 100%;
+      height: 720px; }
+  #bannerBottom .bottomDetails {
+    padding-left: 100px; }
+    #bannerBottom .bottomDetails h2 {
+      font-family: "Oswald", sans-serif;
+      font-size: 48px;
+      line-height: 58px;
+      font-weight: 700;
+      letter-spacing: 0px;
+      padding-bottom: 30px; }
+    #bannerBottom .bottomDetails h6 {
+      font-family: "EB Garamond", serif;
+      font-size: 16px;
+      line-height: 30px;
+      font-weight: 600;
+      letter-spacing: 0px;
+      padding-bottom: 30px; }
+    #bannerBottom .bottomDetails ul li {
+      position: relative;
+      margin: 0 0 20px 0;
+      padding-left: 50px; }
+      #bannerBottom .bottomDetails ul li:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 400;
+        content: "\f192";
+        display: inline-block;
+        overflow: hidden;
+        position: absolute;
+        left: 20px;
+        bottom: 0;
+        font-size: 17px;
+        color: #222; }
+      #bannerBottom .bottomDetails ul li:after {
+        content: "";
+        width: 70px;
+        height: 1px;
+        overflow: hidden;
+        background: rgba(0, 0, 0, 0.08);
+        position: absolute;
+        left: 0;
+        bottom: -11px; }
+      #bannerBottom .bottomDetails ul li:last-child {
+        padding-bottom: 30px; }
+      #bannerBottom .bottomDetails ul li:last-child:before {
+        padding-bottom: 30px; }
+      #bannerBottom .bottomDetails ul li:last-child:after {
+        display: none; }
+    #bannerBottom .bottomDetails a {
+      background-color: #cac6c1;
+      font-family: "Oswald", sans-serif;
+      text-align: left;
+      line-height: 31px;
+      letter-spacing: 0px;
+      font-weight: 600;
+      font-size: 18px;
+      border-color: #f2bb6c;
+      padding: 11px 20px;
+      color: #ffffff;
+      transition: 0.5s all linear;
+      -webkit-transition: 0.5s all linear;
+      -moz-transition: 0.5s all linear;
+      -o-transition: 0.5s all linear; }
+      #bannerBottom .bottomDetails a:hover {
+        background: #000000; }
+  #bannerBottom .borderBottom {
+    display: block;
+    border: none;
+    outline: none;
+    height: 1px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.08); }
+
+/**********************
+  Banner Bottom Starts
+***********************/
+/****************
+  Navbar Starts
+*****************/
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  .navbar ul li {
+    margin-left: 30px; }
+    .navbar ul li:last-child {
+      margin-left: 60px; }
+      .navbar ul li:last-child a {
+        background: #f2bb6c;
+        font-family: "EB Garamond", serif;
+        text-align: left;
+        line-height: 31px;
+        letter-spacing: 0px;
+        font-weight: 600;
+        font-size: 14px;
+        border-color: #f2bb6c;
+        padding: 5px 31px !important;
+        color: #222;
+        transition: 0.5s all linear;
+        -webkit-transition: 0.5s all linear;
+        -moz-transition: 0.5s all linear;
+        -o-transition: 0.5s all linear; }
+        .navbar ul li:last-child a img {
+          margin-right: 5px; }
+        .navbar ul li:last-child a:hover {
+          background: #000000;
+          color: #fff; }
+    .navbar ul li a {
+      color: #fff;
+      font-family: "EB Garamond", serif;
+      font-size: 18px; }
+
+/****************
+  Navbar Ends
+*****************/
+/*****************
+ About us Starts
+******************/
+#aboutUs {
+  width: 100%;
+  padding: 100px 0 0 0;
+  background: #000000; }
+  #aboutUs .aboutTitle h6 {
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-family: "EB Garamond", serif;
+    color: #fff;
+    padding-bottom: 10px; }
+  #aboutUs .aboutTitle h2 {
+    font-size: 65px;
+    line-height: 75px;
+    font-weight: 400;
+    letter-spacing: 30px;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 50px; }
+  #aboutUs .aboutDetails1 {
+    color: rgba(241, 241, 241, 0.4); }
+  #aboutUs .aboutDetails2 {
+    margin-top: 50px;
+    color: #818181; }
+  #aboutUs .readMore {
+    padding-top: 40px;
+    padding-bottom: 300px; }
+    #aboutUs .readMore a {
+      background-color: #202020;
+      font-family: "Oswald", sans-serif;
+      text-align: left;
+      line-height: 31px;
+      letter-spacing: 0px;
+      font-weight: 600;
+      font-size: 18px;
+      border-color: #f2bb6c;
+      padding: 11px 20px;
+      color: #ffffff;
+      transition: 0.5s all linear;
+      -webkit-transition: 0.5s all linear;
+      -moz-transition: 0.5s all linear;
+      -o-transition: 0.5s all linear; }
+      #aboutUs .readMore a:hover {
+        background: #f2bb6c;
+        color: #000000; }
+
+/*********************
+ About Bottom Starts 
+*********************/
+.aboutImage {
+  margin-top: -200px;
+  padding-bottom: 100px; }
+  .aboutImage .aboutImgBig {
+    overflow: hidden; }
+    .aboutImage .aboutImgBig:hover img {
+      transform: scale(1.1); }
+  .aboutImage .aboutImgSmall {
+    margin-top: 78px;
+    overflow: hidden; }
+    .aboutImage .aboutImgSmall:hover img {
+      transform: scale(1.1); }
+  .aboutImage img {
+    width: 100%;
+    transition: transform .5s; }
+
+/*********************
+ About Bottom Ends 
+*********************/
+/*****************
+ About us Ends
+******************/
+/******************
+ Portfolio Starts
+*******************/
+#counterUp {
+  padding: 100px 0;
+  background: #f1f1f1;
+  width: 100%; }
+  #counterUp .portfolioTitle h6 {
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-family: "EB Garamond", serif;
+    color: #000000;
+    padding-bottom: 10px; }
+  #counterUp .portfolioTitle h2 {
+    font-size: 65px;
+    line-height: 75px;
+    font-weight: 400;
+    letter-spacing: 30px;
+    font-family: "Oswald", sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    padding-bottom: 50px; }
+  #counterUp .counter {
+    font-size: 60px;
+    font-family: "EB Garamond", serif;
+    line-height: 60px;
+    color: #000000; }
+  #counterUp h5 {
+    font-size: 30px;
+    font-family: "Oswald", sans-serif;
+    line-height: 30px;
+    padding-top: 15px;
+    position: relative; }
+    #counterUp h5:after {
+      content: '';
+      position: absolute;
+      bottom: -30px;
+      left: 80px;
+      width: 40%;
+      height: 1px;
+      background: rgba(0, 0, 0, 0.08); }
+  #counterUp .imageCenter {
+    padding-top: 100px;
+    text-align: center; }
+
+.content {
+  height: 250px; }
+
+#app {
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+  position: absolute; }
+  #app h5 {
+    left: 50%;
+    color: #fff;
+    font-family: "EB Garamond", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    transform: translatex(-50%);
+    top: 135px; }
+
+canvas {
+  width: 100%;
+  height: 100%; }
+
+.project {
+  width: 100%;
+  height: 340px;
+  background: green; }
+
+@media screen and (min-width: 53em) {
+  .message {
+    display: none; }
+
+  .content {
+    justify-content: center; } }
+/******************
+ Portfolio Ends
+*******************/
+/*****************
+ Team Starts
+******************/
+#team {
+  width: 100%;
+  padding: 100px 0 0 0;
+  background: #a0a0a0; }
+  #team .teamTitle h6 {
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    font-family: "EB Garamond", serif;
+    color: #222;
+    padding-bottom: 10px; }
+  #team .teamTitle h2 {
+    font-size: 65px;
+    line-height: 75px;
+    font-weight: 400;
+    letter-spacing: 30px;
+    font-family: "Oswald", sans-serif;
+    color: #222;
+    text-transform: uppercase;
+    padding-bottom: 50px; }
+  #team .member {
+    background: #fff;
+    -webkit-filter: grayscale(100%);
+    /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%); }
+    #team .member:hover {
+      -webkit-filter: grayscale(0%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(0%); }
+    #team .member img {
+      width: 100%; }
+    #team .member h4 {
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 400;
+      font-family: "Oswald", sans-serif;
+      color: #f2bb6c;
+      padding: 20px 0;
+      margin-bottom: 0rem !important; }
+    #team .member p {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 300;
+      font-family: "EB Garamond", serif;
+      color: #818181;
+      margin-bottom: 0rem !important;
+      padding: 0 10px 20px 10px; }
+    #team .member .butn {
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 50%;
+      border: 1px solid #818181;
+      margin-right: 10px;
+      display: inline-block;
+      transition: 0.5s all linear;
+      -webkit-transition: 0.5s all linear;
+      -moz-transition: 0.5s all linear;
+      -o-transition: 0.5s all linear; }
+      #team .member .butn span {
+        display: none; }
+      #team .member .butn:hover {
+        width: 100px;
+        height: 30px;
+        border-radius: 20px; }
+      #team .member .butn:hover i {
+        color: #f2bb6c;
+        transform: rotate(360deg); }
+      #team .member .butn:hover span {
+        display: inline-block;
+        color: #f2bb6c; }
+
+/*****************
+ Team Ends
+******************/
+/*=============================
+  mixit-up css start
+===============================*/
+#mixit-up {
+  padding: 100px 0; }
+  #mixit-up .mixit-up-top {
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/blog-03.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+    background-attachment: fixed; }
+    #mixit-up .mixit-up-top .text {
+      text-align: center; }
+    #mixit-up .mixit-up-top h5 {
+      font-family: "Oswald", sans-serif;
+      font-size: 22px;
+      color: #fff; }
+    #mixit-up .mixit-up-top h2 {
+      font-family: "Oswald", sans-serif;
+      font-size: 60px;
+      color: #fff; }
+    #mixit-up .mixit-up-top p {
+      font-family: "Oswald", sans-serif;
+      font-size: 16px;
+      color: #fff; }
+    #mixit-up .mixit-up-top h4 {
+      font-family: "Oswald", sans-serif;
+      font-size: 22px;
+      color: #fff; }
+  #mixit-up .mixit-up-bottom .case {
+    color: #fff;
+    width: 100%;
+    padding: 100px 0 94px 0;
+    background: #242323;
+    margin-top: -50px; }
+    #mixit-up .mixit-up-bottom .case p {
+      font-family: "Oswald", sans-serif;
+      font-size: 16px;
+      color: #fff;
+      letter-spacing: 4px;
+      text-align: center; }
+    #mixit-up .mixit-up-bottom .case h3 {
+      font-family: "Oswald", sans-serif;
+      font-size: 35px;
+      color: #fff;
+      text-align: center; }
+    #mixit-up .mixit-up-bottom .case ul {
+      text-align: center;
+      margin-top: 60px;
+      cursor: pointer; }
+      #mixit-up .mixit-up-bottom .case ul li {
+        font-family: "Oswald", sans-serif;
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 30px; }
+  #mixit-up .mixit-up-bottom .case-details .mix {
+    padding-right: 2px !important;
+    padding-left: 0 !important;
+    padding-bottom: 2px !important;
+    position: relative;
+    cursor: crosshair; }
+    #mixit-up .mixit-up-bottom .case-details .mix .overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.8);
+      opacity: 0;
+      transform: scale(1);
+      transition: 0.5s all linear;
+      -webkit-transition: 0.5s all linear;
+      -moz-transition: 0.5s all linear;
+      -o-transition: 0.5s all linear; }
+      #mixit-up .mixit-up-bottom .case-details .mix .overlay a i {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 16px;
+        color: #000000;
+        background: #f2bb6c; }
+    #mixit-up .mixit-up-bottom .case-details .mix .text {
+      transition: 0.5s all linear;
+      -webkit-transition: 0.5s all linear;
+      -moz-transition: 0.5s all linear;
+      -o-transition: 0.5s all linear; }
+      #mixit-up .mixit-up-bottom .case-details .mix .text h4 {
+        font-family: "Oswald", sans-serif;
+        font-size: 22px;
+        color: #fff;
+        text-align: center; }
+      #mixit-up .mixit-up-bottom .case-details .mix .text p {
+        font-family: "Oswald", sans-serif;
+        font-size: 22px;
+        color: #f2bb6c;
+        text-align: center;
+        margin-top: 15px; }
+    #mixit-up .mixit-up-bottom .case-details .mix:hover .overlay {
+      opacity: 1;
+      transform: scale(1.2);
+      z-index: 9999; }
+    #mixit-up .mixit-up-bottom .case-details .mix:hover .overlay .text {
+      margin-top: 65px; }
+  #mixit-up .mixit-up-bottom .case-details .img-slider {
+    position: relative; }
+    #mixit-up .mixit-up-bottom .case-details .img-slider ul {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%); }
+      #mixit-up .mixit-up-bottom .case-details .img-slider ul .slick-active button {
+        background: red !important;
+        border: none; }
+    #mixit-up .mixit-up-bottom .case-details .img-slider li {
+      padding: 5px;
+      display: inline-block; }
+    #mixit-up .mixit-up-bottom .case-details .img-slider button {
+      font-size: 0;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      border: 2px solid #ffffff;
+      outline: 0;
+      background: none; }
+  #mixit-up .mixit-up-bottom img {
+    width: 100%; }
+  #mixit-up .mixit-up-bottom .mixitup-control-active {
+    background: red !important; }
+
+/*=============================
+  mixit-up css end
+===============================*/
+
+/*# sourceMappingURL=main.css.map */

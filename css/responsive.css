@@ -1,0 +1,2085 @@
+@media(min-width: 320px) and (max-width:575px) {
+
+
+    /****************
+  Banner Starts
+*****************/
+
+    #banner {
+        padding: 160px 0 100px 0 !important;
+    }
+
+    .bannerTitle {
+        text-align: center !important;
+    }
+
+    .bannerTitle h2 {
+        font-size: 26px !important;
+    }
+
+    .bannerTitle span {
+        font-size: 26px !important;
+    }
+
+    #particles-js {
+        padding: 160px 0 100px 0 !important;
+    }
+
+
+    /*************
+   Banner Ends
+**************/
+
+
+    /******************
+ Banner Bottom Starts
+*******************/
+
+    #bannerBottom .bottomImg img {
+        height: 300px !important;
+        padding-bottom: 10px !important;
+    }
+
+    #banner .bannerTitle p {
+        font-size: 16px !important;
+    }
+
+    #bannerBottom .bottomImg {
+        margin-top: -160px !important;
+    }
+
+    .bottomDetails {
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    .bottomDetails h2 {
+        font-size: 20px !important;
+        padding-bottom: 0 !important;
+    }
+
+
+    /******************
+ Banner Bottom Ends
+*******************/
+
+    /******************
+    About Us Starts
+*******************/
+    #aboutUs {
+        padding: 60px 0 0 0 !important;
+        margin-top: -20px;
+    }
+
+    #aboutUs .aboutTitle h6 {
+        padding-bottom: 0 !important;
+    }
+
+    #aboutUs .aboutTitle h2 {
+        font-size: 18px !important;
+        letter-spacing: 14px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #aboutUs .aboutDetails1 {
+        text-align: center !important;
+    }
+
+    #aboutUs .aboutDetails2 {
+        text-align: center !important;
+        margin-top: 10px !important;
+    }
+
+    .aboutImage {
+        padding-bottom: 60px !important;
+    }
+
+
+    /******************
+    About Us Ends
+*******************/
+
+
+    /******************
+  About Bottom Starts
+*******************/
+
+    .aboutImgSmall img {
+        display: none;
+    }
+
+    .aboutImage .aboutImgSmall {
+        margin-top: 0 !important;
+    }
+
+    /******************
+  About Bottom Ends
+*******************/
+
+    /******************
+      Counter Starts
+*******************/
+    #counterUp {
+        padding: 60px 0 46px 0 !important;
+    }
+
+    #counterUp .portfolioTitle h6 {
+        padding-bottom: 0 !important;
+    }
+
+    #counterUp .portfolioTitle h2 {
+        font-size: 18px !important;
+        letter-spacing: 14px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #counterUp h5::after {
+        bottom: 15px !important;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #counterUp h5 {
+        padding-bottom: 30px !important;
+    }
+
+    /******************
+      Counter Ends
+*******************/
+    /******************
+Video Background Starts
+*******************/
+
+
+    #myVideo {
+        height: 250px !important;
+    }
+
+    .video {
+        margin-bottom: 23px !important;
+    }
+
+    .video .videoTitle h6 {
+        padding-bottom: 0 !important;
+        padding-top: 60px !important;
+    }
+
+    .video .videoTitle h2 {
+        font-size: 18px !important;
+        letter-spacing: 14px !important;
+        padding-bottom: 0 !important;
+    }
+
+    .project {
+        padding: 0 0 25px 0 !important;
+    }
+
+    .project img {
+        width: 95% !important;
+        margin-left: 8px;
+    }
+
+    .project::after {
+        right: 8px !important;
+    }
+
+    .project::before {
+        right: 8px !important;
+    }
+
+    .project .imgbg::before {
+        left: 8px !important;
+    }
+
+    .project .imgbg::after {
+        left: 8px !important;
+    }
+
+    .project .projectName {
+        margin-left: 75px !important;
+        margin-top: 30px !important;
+        opacity: 1 !important;
+    }
+
+    /******************
+Video Background Ends
+*******************/
+
+    /******************
+        Service Starts
+*******************/
+
+    #service {
+        padding: 60px 0 50px 0 !important;
+        margin-top: 40px !important;
+    }
+
+    #service .serviceTitle h6 {
+        padding-bottom: 0 !important;
+    }
+
+    #service .serviceTitle h2 {
+        font-size: 18px !important;
+        letter-spacing: 14px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #service .service-video {
+        display: none;
+    }
+
+    #service .section-heading {
+        text-align: center;
+    }
+
+    /******************
+        Service Ends
+*******************/
+
+    /******************
+        Our Team Starts
+*******************/
+
+    #team {
+        padding: 60px 0 36px 0 !important;
+    }
+
+    #team .teamTitle h6 {
+        padding-bottom: 0 !important;
+    }
+
+    #team .teamTitle h2 {
+        font-size: 18px !important;
+        letter-spacing: 14px !important;
+        padding-bottom: 0 !important;
+        line-height: 30px !important;
+    }
+
+    #team .teamDetails img {
+        padding-top: 30px !important;
+    }
+
+    /******************
+        Our Team Ends
+*******************/
+
+    /******************
+    Blog Part Start
+*******************/
+
+    #blog .blog-title {
+        margin-top: -38px;
+    }
+
+    #blog .blog-title h6 {
+        padding-bottom: 0 !important;
+    }
+
+    #blog .blog-title h2 {
+        font-size: 18px !important;
+        letter-spacing: 14px !important;
+        padding-bottom: 0 !important;
+    }
+
+
+    #blog .blog-one .flip-box img {
+        height: 270px;
+    }
+
+    #blog .blog-one .flip-box .flip-box-inner .flip-box-back {
+        display: none !important;
+    }
+
+    #blog .blog-one .flip-box .flip-box-inner .blog-date {
+        position: absolute !important;
+        top: 223px;
+
+
+    }
+
+    #blog .blog-one .blog-details {
+        padding-top: 270px !important;
+
+    }
+
+
+    #blog .blog-one .blog-details .content-footer .blog-comment {
+        margin-top: -12px !important;
+    }
+
+    /******************
+    Blog Part Ends
+*******************/
+
+
+
+    /******************
+  Testimonial Part Start
+*******************/
+    #testimonial {
+
+        margin-bottom: 100px !important;
+    }
+
+    #testimonial .testimonial-title {
+        margin-top: -28px;
+    }
+
+    #testimonial .testimonial-title h6 {
+        padding-bottom: 0 !important;
+    }
+
+    #testimonial .testimonial-title h2 {
+        font-size: 18px !important;
+        letter-spacing: 14px !important;
+        padding-bottom: 0 !important;
+    }
+
+    #testimonial .testimonial-slider .prev {
+        left: 36% !important;
+    }
+
+    #testimonial .testimonial-slider .next {
+        left: 61%;
+    }
+
+    /******************
+  Testimonial Part Ends
+*******************/
+
+    /******************
+      Footer Start
+*******************/
+
+
+    #footer .footer-logo {
+        margin-top: -48px !important;
+    }
+
+    #footer .footer-details .footer-Canditates li {
+        display: block !important;
+    }
+
+    #footer .footer-details .footer-Employees li {
+        display: block !important;
+    }
+
+    /******************
+      Footer Ends
+*******************/
+
+    /*==========================
+      particle index satrt
+    ============================*/
+    #particles-js {
+        height: 500px;
+    }
+
+    #particles-js .bannerTitle {
+        top: 0;
+    }
+
+    #bannerBottom .bottomImg img {
+        height: 420px !important;
+    }
+
+    #particles-js .bannerTitle p {
+        padding: 0 30px;
+    }
+
+    #service .particle-service-video {
+        display: none;
+    }
+
+    #footer-js .footer-details .footer-Canditates li {
+        display: block !important;
+    }
+
+    #footer-js .footer-details .footer-Employees li {
+        display: block !important;
+    }
+
+
+    /*==========================
+      particle index end
+    ============================*/
+
+    /*==========================
+      Video Banner index Start
+    ============================*/
+
+    #myVideobg {
+        width: 100%;
+        height: 495px;
+        object-fit: cover;
+        z-index: -100;
+    }
+
+    #video-banner .overlay .bannerTitle {
+        padding-top: 160px;
+    }
+
+    #video-banner .overlay .bannerTitle p {
+        font-size: 16px !important;
+    }
+
+    #video-banner .overlay .bannerTitle h5 {
+        font-variant-east-asian: 30px !important;
+    }
+
+
+    /*==========================
+      Video Banner Index end
+    ============================*/
+
+    /********************************
+  About Us  Inner content Start
+**********************************/
+    #about-us-inner-content {
+        padding: 61px 0 78px 0;
+        text-align: center;
+    }
+
+    #about-us-inner-content .about-us-text-inner h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    #about-us-inner-content .about-us-text-inner p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    #about-us-inner-content .about-us-content-img img {
+        width: 100%;
+        margin-top: 66px;
+    }
+
+    /********************************
+  About Us  Inner content End
+**********************************/
+
+    /***********************************
+  About Us  Inner content  Area Start
+***************************************/
+
+    #about-inner-content-area {
+        padding: 40px 0 70px 0;
+    }
+
+    /***********************************
+  About Us  Inner content  Area End
+***************************************/
+
+    /********************************
+  About Inner Video Start
+**********************************/
+    #about-video-section {
+        padding-bottom: 60px;
+    }
+
+    #about-video-section .sell-column .inner-column {
+        padding: 0 0 25px 0;
+
+    }
+
+    #about-video-section .sell-column .text {
+        margin-top: 25px;
+    }
+
+
+    #about-video-section .sell-column .video-box .image {
+        margin-top: 32px;
+    }
+
+    /********************************
+  About Inner Video End
+**********************************/
+
+    /********************************
+  Services Inner  start
+**********************************/
+    .service-details-page {
+        padding-top: 70px;
+    }
+
+    .service-details-page .img-wrapper {
+        margin-bottom: 20px;
+    }
+
+    /********************************
+  Services Inner  End
+**********************************/
+
+    /********************************
+  Team Details  start
+**********************************/
+    .team-details-area {
+        padding: 70px 0 50px;
+    }
+
+    .team-details-tabs {
+        margin-top: 20px;
+    }
+
+    .more_team_member {
+        margin-bottom: 100px;
+    }
+
+
+    /********************************
+  Team Details  End
+**********************************/
+
+    /********************************
+  Contact   Start
+**********************************/
+
+    .contact_us {
+        padding-bottom: 70px;
+        margin-bottom: 100px;
+    }
+
+    .contact_us .contact_bg {
+        padding: 70px 0 60px 0;
+    }
+
+    .contact_us .map_height {
+        width: 100%;
+        height: 450px;
+
+    }
+
+    /********************************
+  Contact   End
+**********************************/
+
+
+
+    /***********************************
+    call to action-Start
+************************************/
+
+    #call-to-action {
+        margin-top: -80px;
+        margin-bottom: 20px;
+    }
+
+    #call-to-action .call-to-action-text h2 {
+        font-size: 29px;
+    }
+
+
+    /***********************************
+    call to action-End
+************************************/
+    /***********************************
+     Blog Inner Start
+************************************/
+
+    #blog-inner-sec {
+        padding: 50px 0 30px 0;
+    }
+
+    #blog-inner-sec .blog-inner-details .blog-single-meta-title h3 {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 26px;
+        padding-bottom: 5px;
+    }
+
+    #blog-inner-sec .blog-inner-details .blog-single-user {
+        margin-left: 0;
+    }
+
+    #blog-inner-sec .blog-inner-details .blog-single-user ul {
+        margin-left: 0;
+    }
+
+    #blog-inner-sec .blog-inner-details .blog-single-user li {
+        margin-top: 10px;
+
+    }
+
+    #blog-inner-sec .blog-comments .comments-details .author-img {
+        margin-bottom: 20px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details .author-img img {
+        width: 74px;
+        height: 74px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details-reply .author-img {
+        margin-bottom: 20px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details-reply .author-img img {
+        width: 74px;
+        height: 74px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details-reply {
+        margin-left: 25px;
+    }
+
+    #blog-inner-sec .blog-inner-sidebar .blog-widget-title {
+        text-align: left;
+    }
+
+    #blog-inner-sec .blog-inner-sidebar .blog-widget-title::before {
+        left: 0;
+        transform: translate(0);
+    }
+
+    #blog-inner-sec .blog-inner-sidebar .blog-widget-tag a {
+        margin-right: 5px;
+        padding: 10px 9px;
+    }
+
+    #blog .blog-inner-grid {
+        margin-top: -30px;
+        margin-bottom: -37px;
+    }
+
+    #blog .blog-page-pagination li a {
+        padding: 10px 18px;
+    }
+
+
+
+    /***********************************
+     Blog Inner End
+************************************/
+
+}
+
+
+/*********************
+Responsive Nav Starts
+**********************/
+@media only screen and (max-width: 1170px) {
+    nav > ul > li > a {
+        padding: 35px 17px;
+    }
+
+    #header .logo {
+        padding: 18px 26px;
+    }
+
+    #video-banner .overlay nav li a {
+        padding: 47px 17px;
+    }
+
+    #video-banner .logo {
+        padding: 18px 26px;
+    }
+
+    nav .dropdown ul {
+        left: -40px;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    nav {
+        display: block !important
+    }
+}
+
+@media only screen and (max-width: 959px) {
+
+
+
+    nav {
+        display: none;
+        width: 100%;
+        clear: both;
+        float: none;
+        max-height: 400px;
+        overflow-y: scroll
+    }
+
+    #menu-icon {
+        display: inline;
+        top: 56px;
+        cursor: pointer
+    }
+
+    #menu-icon.active .first {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        margin-top: 10px
+    }
+
+    #menu-icon.active .second {
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        position: relative;
+        top: -9px;
+    }
+
+    #menu-icon.active .third {
+        display: none
+    }
+
+    .search {
+        float: none
+    }
+
+    .search input {
+        width: 100%
+    }
+
+    nav {
+        padding: 10px
+    }
+
+    nav ul {
+        float: none
+    }
+
+    nav li {
+        float: none
+    }
+
+    nav ul li a {
+        float: none;
+        padding: 8px;
+        display: block
+    }
+
+    #header {
+        z-index: 99999;
+    }
+
+    #header nav ul ul {
+        display: block;
+        position: static;
+        background: none;
+        border: none;
+        padding: 0
+    }
+
+    #header nav a {
+        color: #fff;
+        padding left: 8px
+    }
+
+    #header nav a:hover {
+        background: #fff;
+        color: #333;
+        border-radius: 3px
+    }
+
+    #header nav ul li li a:before {
+        content: "- "
+    }
+
+    #video-banner .overlay nav li a {
+        padding: 24px 17px;
+    }
+
+    .mega-col {
+        width: 100%
+    }
+}
+
+
+/*********************
+Responsive Nav Ends
+**********************/
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+
+
+
+
+    /******************
+     Banner Bottom Starts
+    *******************/
+
+    #bannerBottom .borderBottom {
+        margin-top: 68px !important;
+    }
+
+    .bottomDetails {
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    .bottomDetails h2 {
+        margin-top: 40px;
+    }
+
+
+    /******************
+    Banner Bottom Ends
+   *******************/
+
+    /******************
+    About Us Starts
+     *******************/
+
+
+    #aboutUs {
+        padding: 50px 0 0 0 !important;
+    }
+
+    #aboutUs .readMore {
+        padding-bottom: 270px;
+    }
+
+    #aboutUs .aboutTitle h2 {
+        letter-spacing: 22px !important;
+        margin-left: 20px;
+        padding-bottom: 30px !important;
+    }
+
+    #aboutUs .aboutDetails1 {
+        text-align: center !important;
+    }
+
+    #aboutUs .aboutDetails2 {
+        text-align: center !important;
+        margin-top: 10px !important;
+    }
+
+    .aboutImgSmall img {
+        display: none;
+    }
+
+    .aboutImage {
+        padding-bottom: 59px;
+    }
+
+    .aboutImage .aboutImgSmall {
+        margin-top: 0 !important;
+    }
+
+
+
+    /******************
+      About Us Ends
+    *******************/
+
+    /******************
+      Counter Starts
+*******************/
+
+    #counterUp {
+        padding: 50px 0 40px 0 !important;
+    }
+
+    #counterUp .portfolioTitle h2 {
+        letter-spacing: 22px !important;
+        margin-left: 20px;
+    }
+
+    #counterUp h5::after {
+        bottom: 10px !important;
+
+    }
+
+    #counterUp h5 {
+        padding-bottom: 30px !important;
+    }
+
+    /******************
+      Counter Ends
+*******************/
+
+    /******************
+Video Background Starts
+*******************/
+
+    #myVideo {
+        height: 380px !important;
+    }
+
+    .video .videoTitle h6 {
+        padding-top: 128px !important;
+    }
+
+    .video .videoTitle h2 {
+        letter-spacing: 14px !important;
+        margin-left: 20px;
+    }
+
+    .project {
+        padding: 0 !important;
+    }
+
+    .project .imgbg {
+        margin-top: 20px;
+    }
+
+    .project .projectName {
+        top: 84% !important;
+        opacity: 1 !important;
+    }
+
+
+    /******************
+Video Background Ends
+*******************/
+
+    /******************
+        Service Starts
+*******************/
+
+    #service {
+        padding: 40px 0 40px 0;
+    }
+
+    #service .serviceTitle h2 {
+        letter-spacing: 22px !important;
+        margin-left: 20px;
+        margin-bottom: 300px !important;
+    }
+
+    #service .service-video {
+        top: -410px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 30%;
+        width: 100%;
+    }
+
+
+    /******************
+        Service Ends
+*******************/
+
+
+    /******************
+        Our Team Starts
+*******************/
+
+
+    #team {
+        padding: 50px 0 30px 0;
+    }
+
+    #team .teamTitle h2 {
+        letter-spacing: 22px !important;
+        margin-left: 20px;
+        padding-bottom: 0 !important;
+    }
+
+    #team .teamDetails img {
+        padding-top: 30px !important;
+    }
+
+    /******************
+        Our Team Ends
+*******************/
+
+
+
+    /******************
+    Blog Part Start
+*******************/
+    #blog {
+        padding: 50px 0 108px 0;
+
+    }
+
+    #blog .blog-title h2 {
+        letter-spacing: 22px !important;
+        margin-left: 20px;
+    }
+
+    #blog .blog-one .flip-box .flip-box-inner .flip-box-back {
+        display: none !important;
+    }
+
+    #blog .blog-one .flip-box .flip-box-inner .blog-date {
+        top: 293px;
+    }
+
+    #blog .blog-one .blog-details {
+        padding-top: 345px !important;
+    }
+
+    #blog .blog-one .blog-details .content-footer .blog-comment {
+        margin-top: -11px !important;
+    }
+
+    #blog .blog-one .blog-details
+    /******************
+    Blog Part Ends
+*******************/
+
+    /******************
+  Testimonial Part Start
+*******************/
+
+    #testimonial {
+        padding: 50px 0;
+    }
+
+    #testimonial .testimonial-title h6 {
+        margin-top: -30px;
+    }
+
+    #testimonial .testimonial-title h2 {
+        letter-spacing: 22px !important;
+        margin-left: 20px;
+
+    }
+
+
+
+
+    #testimonial .testimonial-slider .prev {
+        left: 41.2% !important;
+    }
+
+    #testimonial .testimonial-slider .next {
+        left: 56.8% !important;
+    }
+
+    /******************
+     Testimonial Part Ends
+    *******************/
+
+
+    /******************
+     Footer Part Starts
+    *******************/
+
+
+    #footer .footer-details .footer-Canditates li {
+        display: block !important;
+    }
+
+    #footer .footer-details .footer-Employees li {
+        display: block !important;
+    }
+
+    /******************
+     Footer Part End
+    *******************/
+    /*==========================
+      particle index satrt
+    ============================*/
+    #particles-js {
+        height: 700px;
+    }
+
+    #particles-js .bannerTitle {
+        padding-top: 210px;
+        top: 0;
+    }
+
+    #service .particle-service-video {
+        top: -410px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 30%;
+        width: 100%;
+    }
+
+
+    #footer-js .footer-details .footer-Canditates li {
+        display: block !important;
+    }
+
+    #footer-js .footer-details .footer-Employees li {
+        display: block !important;
+    }
+
+
+
+
+    /*==========================
+      particle index end
+    ============================*/
+
+    /********************************
+  About Us  Inner content Start
+**********************************/
+    #about-us-inner-content {
+        padding: 61px 0 78px 0;
+        text-align: center;
+    }
+
+    #about-us-inner-content .about-us-text-inner h1 {
+        font-size: 28px;
+    }
+
+    #about-us-inner-content .about-us-text-inner p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    #about-us-inner-content .about-us-content-img img {
+        width: 70%;
+        margin-top: 66px;
+    }
+
+    /********************************
+  About Us  Inner content End
+**********************************/
+
+    /***********************************
+  About Us  Inner content  Area Start
+***************************************/
+
+    #about-inner-content-area {
+        padding: 40px 0 70px 0;
+    }
+
+    /***********************************
+  About Us  Inner content  Area End
+***************************************/
+
+    /********************************
+  About Inner Video Start
+**********************************/
+
+
+
+    #about-video-section {
+        padding-bottom: 1px;
+    }
+
+    #about-video-section .sell-column .inner-column {
+        padding: 0 0 25px 0;
+
+    }
+
+    #about-video-section .sell-column .text {
+        margin-top: 25px;
+    }
+
+
+    #about-video-section .sell-column .video-box .image {
+        margin-top: 32px;
+    }
+
+    /********************************
+  About Inner Video End
+**********************************/
+
+    /********************************
+  Services Inner  start
+**********************************/
+    .service-details-page {
+        padding: 70px 0 0;
+    }
+
+    .service-details-page .img-wrapper {
+        margin-bottom: 20px;
+    }
+
+    /********************************
+  Services Inner  End
+**********************************/
+
+    /********************************
+  Team Details  start
+**********************************/
+    .team-details-area {
+        padding: 70px 0 50px;
+    }
+
+    .team-details-tabs {
+        margin-top: 20px;
+    }
+
+
+
+
+    /********************************
+  Team Details  End
+**********************************/
+
+    /***********************************
+     call to action-Start
+************************************/
+
+    #call-to-action {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /***********************************
+     call to action-End
+************************************/
+
+    /***********************************
+     Blog Inner Start
+************************************/
+
+    #blog-inner-sec {
+        padding: 50px 0 30px 0;
+    }
+
+    #blog-inner-sec .blog-inner-details .blog-single-meta-title h3 {
+        margin-left: 0;
+        margin-top: 20px;
+        font-size: 28px;
+        padding-bottom: 5px;
+    }
+
+    #blog-inner-sec .blog-inner-details .blog-single-user {
+        margin-left: 0;
+    }
+
+    #blog-inner-sec .blog-inner-details .blog-single-user ul {
+        margin-left: 0;
+    }
+
+    #blog-inner-sec .blog-inner-details .blog-single-user li {
+        margin-top: 10px;
+        margin-right: -8px;
+
+    }
+
+    #blog-inner-sec .blog-comments .comments-details .author-img {
+        margin-bottom: 20px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details .author-img img {
+        width: 74px;
+        height: 74px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details-reply .author-img {
+        margin-bottom: 20px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details-reply .author-img img {
+        width: 74px;
+        height: 74px;
+    }
+
+    #blog-inner-sec .blog-inner-sidebar .blog-archive-widget {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+
+
+    #blog-inner-sec .blog-inner-sidebar .blog-widget-tag a {
+        margin-right: 5px;
+        padding: 10px 9px;
+    }
+
+    #blog .blog-inner-grid {
+        margin-top: 20px;
+        margin-bottom: -37px;
+    }
+
+    /***********************************
+     Blog Inner End
+************************************/
+
+
+    /********************************
+  Contact   Start
+**********************************/
+
+    .contact_us {
+        padding-bottom: 70px;
+    }
+
+    .contact_us .contact_bg {
+        padding: 70px 0 60px 0;
+    }
+
+    .contact_us .map_height {
+        width: 100%;
+        height: 450px;
+
+    }
+
+    /********************************
+  Contact   End
+**********************************/
+
+
+
+
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+
+
+    /************************
+   Banner Starts
+*************************/
+
+    #banner {
+        padding: 250px 0 100px 0 !important;
+    }
+
+    #bannerBottom .bottomImg {
+        margin-top: -130px !important;
+    }
+
+    #bannerBottom .bottomImg img {
+        height: 500px !important;
+    }
+
+    .bannerTitle {
+        text-align: center !important;
+    }
+
+    .bannerTitle h2 {
+        font-size: 50px !important;
+    }
+
+    .bannerTitle span {
+        font-size: 50px !important;
+    }
+
+    #banner .bannerTitle h5 {
+        font-size: 30px !important;
+    }
+
+    /*************
+   Banner Ends
+**************/
+
+    /******************
+ Banner Bottom Starts
+*******************/
+
+    .bottomDetails {
+        text-align: center !important;
+        padding: 0 !important;
+    }
+
+    .bottomDetails h2 {
+        font-size: 25px !important;
+        padding-bottom: 0 !important;
+    }
+
+
+    /******************
+ Banner Bottom Ends
+*******************/
+
+    /******************
+    About Us Starts
+*******************/
+    #aboutUs {
+        margin-top: -40px !important;
+        padding: 60px 0 0 0 !important;
+    }
+
+    .aboutImage .aboutImgSmall {
+        margin-top: 46px !important;
+    }
+
+    /******************
+    About Us Ends
+*******************/
+    /******************
+      Counter Starts
+*******************/
+
+    #counterUp {
+        padding: 60px 0 50px 0 !important;
+        margin-top: -40px !important;
+    }
+
+    #counterUp h5::after {
+        bottom: 15px !important;
+        left: 35%;
+        width: 35%;
+    }
+
+    #counterUp h5 {
+        padding-bottom: 30px !important;
+        font-size: 22px !important;
+        padding-top: 10px !important;
+    }
+
+
+    /******************
+      Counter Ends
+*******************/
+
+
+    /******************
+Video Background Starts
+*******************/
+    .project {
+        padding: 0 0 40px 0 !important;
+    }
+
+    /******************
+Video Background Ends
+*******************/
+
+    /******************
+        Service Starts
+     *******************/
+
+    #service {
+        padding: 60px 0 !important;
+        margin-top: 20px !important;
+    }
+
+    #service .service-video {
+        top: -150px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 50% !important;
+        width: 100% !important;
+    }
+
+    #service .service-area .section-heading p {
+        text-align: center !important;
+        margin-top: 500px !important;
+    }
+
+    /******************
+        Service Ends
+*******************/
+
+
+    /******************
+        Our Team Starts
+*******************/
+
+    #team {
+        padding: 60px 0 32px 0 !important;
+    }
+
+    #team .teamDetails .overlay i {
+        margin-right: 7px !important;
+    }
+
+    /******************
+        Our Team Ends
+*******************/
+
+    /******************
+        Blog Part Start
+*******************/
+
+    #blog .blog-title {
+        margin-top: -40px !important;
+    }
+
+    #blog .blog-one .flip-box .flip-box-inner .flip-box-back {
+        display: none !important;
+    }
+
+    #blog .blog-one .flip-box .flip-box-inner .blog-date {
+        top: 173px;
+    }
+
+    #blog .blog-one .blog-details {
+        padding-top: 230px !important;
+    }
+
+    #blog .blog-one .blog-details .content-footer .blog-comment {
+        margin-top: -11px !important;
+    }
+
+    /******************
+        Blog Part Ends
+      *******************/
+
+    /******************
+       Testimonial Part Start
+    *******************/
+
+    #testimonial {
+        padding: 60px 0 120px 0 !important;
+    }
+
+
+    #testimonial .testimonial-slider .prev {
+        left: 43.5% !important;
+    }
+
+
+    #testimonial .testimonial-slider .next {
+        left: 55% !important;
+    }
+
+    /******************
+     Testimonial Part Ends
+    *******************/
+    /******************
+          Footer Start
+    *******************/
+
+    #footer .footer-details .footer-Canditates li {
+        display: block !important;
+    }
+
+    #footer .footer-details .footer-Employees li {
+        display: block !important;
+    }
+
+
+    /******************
+      Footer Ends
+    *******************/
+    /*==========================
+      particle index satrt
+    ============================*/
+
+    #particles-js {
+        height: 600px;
+    }
+
+    .project .imgbg {
+        padding: 10px;
+    }
+
+    #service {
+        padding: 60px 0 !important;
+        margin-top: 20px !important;
+    }
+
+    #service .particle-service-video {
+        top: -150px;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 50% !important;
+        width: 100% !important;
+    }
+
+    .service-area .section-heading p {
+        text-align: center !important;
+        margin-top: 500px !important;
+    }
+
+    #footer-js .footer-details .footer-Canditates li {
+        display: block !important;
+    }
+
+    #footer-js .footer-details .footer-Employees li {
+        display: block !important;
+    }
+
+
+    /*==========================
+      particle index end
+    ============================*/
+
+
+    /*==========================
+      Video Banner index Start
+    ============================*/
+
+
+    #myVideobg {
+        width: 100%;
+        height: 590px;
+        object-fit: cover;
+        z-index: -100;
+    }
+
+
+    #video-banner .overlay .bannerTitle h5 {
+        font-variant-east-asian: 30px !important;
+    }
+
+
+    #video-banner .overlay .bannerTitle h5 {
+        font-size: 30px !important;
+    }
+
+
+
+
+    /*==========================
+      Video Banner Index end
+    ============================*/
+
+
+
+
+    /********************************
+  About Us  Inner content Start
+**********************************/
+    #about-us-inner-content {
+        padding: 61px 0 118px 0;
+    }
+
+    #about-us-inner-content .about-us-text-inner h1 {
+        font-size: 24px;
+    }
+
+    #about-us-inner-content .about-us-text-inner p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    #about-us-inner-content .aboute-more-btn {
+        margin-top: 0;
+    }
+
+    #about-us-inner-content .about-us-content-img img {
+        width: 108%;
+        margin-top: 66px;
+    }
+
+    /********************************
+  About Us  Inner content End
+**********************************/
+
+    /***********************************
+  About Us  Inner content  Area Start
+***************************************/
+
+    #about-inner-content-area {
+        padding: 40px 0 70px 0;
+    }
+
+    /***********************************
+  About Us  Inner content  Area End
+***************************************/
+
+    /********************************
+  About Inner Video Start
+**********************************/
+
+    #about-video-section {
+        padding-bottom: 1px;
+    }
+
+    #about-video-section .sell-column .inner-column {
+        padding: 0 0 25px 0;
+
+    }
+
+    #about-video-section .sell-column .text {
+        margin-top: 25px;
+    }
+
+    #about-video-section .sell-column .inner-column .text-4 {
+        display: block !important;
+    }
+
+    #about-video-section .sell-column .video-box .image {
+        margin-top: 32px;
+    }
+
+    /********************************
+  About Inner Video End
+**********************************/
+
+    /********************************
+  Services Inner  start
+**********************************/
+    .service-details-page {
+        padding: 70px 0 0;
+    }
+
+    .service-details-page .img-wrapper {
+        margin-bottom: 20px;
+    }
+
+    /********************************
+  Services Inner  End
+**********************************/
+
+    /********************************
+  Team Details  start
+**********************************/
+    .team-details-area {
+        padding: 70px 0 50px;
+    }
+
+    .team-details-tabs {
+        margin-top: 20px;
+    }
+
+
+
+
+    /********************************
+  Team Details  End
+**********************************/
+
+    /***********************************
+     call to action-Start
+************************************/
+
+    #call-to-action {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /***********************************
+     call to action-End
+************************************/
+
+
+
+    /***********************************
+     Blog Inner Start
+************************************/
+
+    #blog-inner-sec {
+        padding: 50px 0 30px 0;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details .author-img {
+        margin-bottom: 20px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details .author-img img {
+        width: 74px;
+        height: 74px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details-reply .author-img {
+        margin-bottom: 20px;
+    }
+
+    #blog-inner-sec .blog-comments .comments-details-reply .author-img img {
+        width: 74px;
+        height: 74px;
+    }
+
+    #blog-inner-sec .blog-inner-sidebar .blog-archive-widget {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    #blog-inner-sec .blog-inner-sidebar .blog-widget-title::before {}
+
+    #blog-inner-sec .blog-inner-sidebar .blog-widget-tag a {
+        margin-right: 5px;
+        padding: 10px 9px;
+    }
+
+    #blog .blog-inner-grid {
+        margin-top: -30px;
+        margin-bottom: -34px;
+    }
+
+
+
+
+    /***********************************
+     Blog Inner End
+************************************/
+
+
+    /********************************
+  Contact   Start
+**********************************/
+
+    .contact_us {
+        padding-bottom: 70px;
+    }
+
+    .contact_us .contact_bg {
+        padding: 70px 0 60px 0;
+    }
+
+    .contact_us .map_height {
+        width: 100%;
+        height: 500px;
+
+    }
+
+    /********************************
+  Contact   End
+**********************************/
+
+
+
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+
+    /**************
+    Menu Starts
+    **************/
+    .navbar ul li {
+        margin-left: 10px !important;
+    }
+
+    .navbar ul li a {
+        font-size: 16px;
+    }
+
+    .navbar ul li:last-child a {
+        padding: 5px 15px !important;
+    }
+
+    /**************
+    Menu Ends
+    **************/
+
+
+    /*******************
+    Service Starts
+    *******************/
+    .offset-lg-4 {
+        margin-left: 37.333% !important;
+    }
+
+    .service-video {
+        height: 78% !important;
+        width: 38% !important;
+    }
+
+    /*****************
+    Service Ends
+    *****************/
+    /****************
+    Blog Starts
+    ****************/
+    #blog .blog-one .blog-details .content-footer .blog-comment a {
+        font-size: 12px !important;
+    }
+
+
+    #blog .blog-one .flip-box .flip-box-inner .flip-box-back {
+        display: none !important;
+    }
+
+    #blog .blog-one .flip-box .flip-box-inner .blog-date {
+        top: 253px;
+    }
+
+    #blog .blog-one .blog-details {
+        padding-top: 298px !important;
+    }
+
+
+    /****************
+    Blog Ends
+    ****************/
+
+
+    /******************************
+          Testimonial start
+    ******************************/
+    #testimonial .testimonial-slider .next {
+        left: 49%;
+    }
+
+    #testimonial .testimonial-details .testimonial-text {
+        margin-top: -20px;
+    }
+
+    #testimonial .testimonial-slider .prev {
+        left: 42%;
+    }
+
+    #testimonial .testimonial-slider .next {
+        left: 54%;
+    }
+
+    /******************************
+          Testimonial ens
+    ******************************/
+
+
+    /*****************
+    Footer Starts
+    *****************/
+    #footer .footer-details .footer-about h2 {
+        font-size: 24px !important;
+    }
+
+    #footer .footer-details .footer-about p {
+        font-size: 15px !important;
+    }
+
+    #footer .footer-details .footer-Canditates h2 {
+        font-size: 24px !important;
+    }
+
+    #footer .footer-details .footer-Canditates li {
+        font-size: 18px;
+    }
+
+    #footer .footer-details .footer-Employees h2 {
+        font-size: 24px !important;
+    }
+
+    #footer .footer-details .footer-Employees li {
+        font-size: 18px;
+    }
+
+    #footer .footer-details .footer-flick h2 {
+        font-size: 24px !important;
+    }
+
+
+    /*==========================
+      particle index satrt
+    ============================*/
+
+    #particles-js {
+        height: 800px;
+    }
+
+
+    #footer-js .footer-details .footer-about h2 {
+        font-size: 24px !important;
+    }
+
+    #footer-js .footer-details .footer-about p {
+        font-size: 15px !important;
+    }
+
+    #footer-js .footer-details .footer-Canditates h2 {
+        font-size: 24px !important;
+    }
+
+    #footer-js .footer-details .footer-Canditates li {
+        font-size: 18px;
+    }
+
+    #footer-js .footer-details .footer-Employees h2 {
+        font-size: 24px !important;
+    }
+
+    #footer-js .footer-details .footer-Employees li {
+        font-size: 18px;
+    }
+
+    #footer-js .footer-details .footer-flick h2 {
+        font-size: 24px !important;
+    }
+
+
+    /*==========================
+      particle index end
+    ============================*/
+
+    /********************************
+  About Us  Inner content Start
+**********************************/
+    #about-us-inner-content .about-us-text-inner h1 {
+        font-size: 31px;
+    }
+
+    #about-us-inner-content .about-us-text-inner p {
+        line-height: 27px;
+        font-size: 17px;
+    }
+
+    /********************************
+  About Us  Inner content End
+**********************************/
+    /********************************
+  About Inner Video Start
+**********************************/
+
+    #about-us-inner-content .aboute-more-btn {
+        margin-top: 0;
+    }
+
+    #about-video-section .sell-column .text {
+        padding: 13px;
+    }
+
+    #about-video-section .sell-column .text p {
+        line-height: 27px;
+    }
+
+    #about-video-section .sell-column .image img {
+        height: 364px;
+    }
+
+    /********************************
+  About Inner Video End
+**********************************/
+    /********************************
+  Services Inner  start
+**********************************/
+    .service-details-page {
+        padding-bottom: 30px;
+    }
+
+    .service-details-page .img-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .service-details-page .img-wrapper {
+        margin-top: 60px;
+    }
+
+    .service-details-page .blog-inner-sidebar .sidebar-service-banner .sbanner-overlay-content {
+        padding: 5px;
+    }
+
+    /********************************
+  Services Inner  End
+    =============================*/
+
+    /********************************
+  Team Details  start
+**********************************/
+    .team-details {
+        margin-top: -148px;
+    }
+
+    /********************************
+  Team Details  End
+**********************************/
+
+    /********************************
+  Blog Inner Grid Start
+**********************************/
+
+    #blog .blog-inner-grid .blog-one .flip-box .flip-box-inner .blog-date {
+        top: 146px;
+    }
+
+    #blog .blog-inner-grid .blog-one .blog-details {
+        padding-top: 192px !important;
+    }
+
+    /********************************
+  Blog Inner Grid End
+**********************************/
+
+
+    /***********************************
+     call to action-Start
+************************************/
+
+    #call-to-action .call-to-action-text h2 {
+        font-size: 31px;
+    }
+
+
+
+    /***********************************
+     call to action-End
+************************************/
+
+
+
+    /********************************
+  Contact   Start
+**********************************/
+
+
+    .contact_us .map_height {
+        width: 400px;
+
+    }
+
+    /********************************
+  Contact   End
+**********************************/
+
+}

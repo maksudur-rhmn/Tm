@@ -1,0 +1,119 @@
+/******************
+ Portfolio Starts
+*******************/
+
+#counterUp {
+    padding: 100px 0;
+    background: #f1f1f1;
+    width: 100%;
+
+    .portfolioTitle {
+        h6 {
+            font-size: 19px;
+            line-height: 30px;
+            font-weight: 400;
+            letter-spacing: 5px;
+            font-family: $secondaryFont;
+            color: $primaryColor;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 65px;
+            line-height: 75px;
+            font-weight: 400;
+            letter-spacing: 30px;
+            font-family: $primaryFont;
+            color: $primaryColor;
+            text-transform: uppercase;
+            padding-bottom: 50px;
+
+        }
+    }
+
+    .counter {
+        font-size: 60px;
+        font-family: $secondaryFont;
+        line-height: 60px;
+        color: $primaryColor;
+    }
+
+    h5 {
+        font-size: 30px;
+        font-family: $primaryFont;
+        line-height: 30px;
+        padding-top: 15px;
+        position: relative;
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: -30px;
+            left: 80px;
+            width: 40%;
+            height: 1px;
+            background: rgba(0, 0, 0, 0.08);
+        }
+    }
+    .imageCenter{
+        padding-top:100px;
+        text-align: center;
+    }
+    
+ 
+
+}
+.content{
+    height:250px;
+    
+}
+  #app{
+        width: 100%;
+	  height: 40%;
+    	overflow: hidden;
+	  position: absolute;
+
+       h5{
+              left: 50%;
+    color: $white;
+    font-family: "EB Garamond", serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    transform: translatex(-50%);
+    top: 135px;
+}
+       
+    }
+canvas {
+	width: 100%;
+	height: 100%;
+}
+.project{
+    @include widthHeight(100%, 340px, green);
+}
+@media screen and (min-width: 53em) {
+	.message {
+		display: none;
+	}
+
+	.content {
+
+		justify-content: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******************
+ Portfolio Ends
+*******************/
